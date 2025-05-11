@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agent Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Agent Dashboard</h1>
+        </header>
+        
+        <div class="main-content">
+            <div class="chat-container">
+                <div id="chat-messages" class="chat-messages">
+                    <!-- Messages will appear here -->
+                </div>
+                <div class="input-area">
+                    <input type="text" id="user-input" placeholder="Type your message...">
+                    <button id="send-button">Send</button>
+                </div>
+            </div>
+            
+            <div class="database-controls">
+                <h2>Database Controls</h2>
+                <div class="db-actions">
+                    <button id="view-data">View All Data</button>
+                    <button id="clear-chat">Clear Chat</button>
+                </div>
+                <div id="database-output" class="db-output">
+                    <!-- Database query results will appear here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
